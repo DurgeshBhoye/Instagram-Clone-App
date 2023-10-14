@@ -1,0 +1,63 @@
+/* .container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
+
+
+/* Left side Css */
+
+
+.col-md-7.social-desktop img {
+    width: 80%;
+}
+
+/* Right side Css */
+
+.logIn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-md-5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-5 .card{
+    width: 100%;
+    height: fit-content;
+}
+
+.inputBG {
+    background-color: #f3f3f3;
+    font-size: 0.8rem;
+    height: 2.9rem;
+    /* width: 100%; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.inputBTN {
+    font-size: 0.9rem;
+    height: 2.9rem;
+    background-color: #b3e0ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* signup */
+
+.signup-link {
+    font-size: 0.8rem;
+    height: 2.9rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 640px){
+    .card{
+        border: none;
+    }
+}
